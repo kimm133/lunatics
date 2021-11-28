@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+   <title>Users Profile</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.dropbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+</style>
+   
+</head>
+<body background="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-spcO-Z7luJOC8su-yuktaVj1p7mF6kpbxA&usqp=CAU">
+    <h1><p style="color:lavenderblush;"> Registration Form</h1>
+        <p> <p style="color:lemonchiffon;">Pleae input the following information needed.</p>
+    <form>
+        <table>
+        <tr><td><span style="color:firebrick"><b>Firstname:</b></span></td><td><input type="text"></td></tr>
+        <tr><td><span style="color:firebrick"><b>Middlename:</b></span></td><td><input type="text"></td></tr>
+        <tr><td><span style="color:firebrick"><b>Lastname:</b></span></td><td><input type="text"></td></tr>
+        <tr><td><span style="color:firebrick"><b>Gender:</b> </span>
+        <tr><td><span style="color:firebrick"><b>Male</b><input type="radio"></td></tr>
+        <tr><td><span style="color:firebrick"><b>Female</b><input type="radio"></td></tr>
+        <tr><td><span style="color:firebrick"><b>Email Address:</b></span></td><td><input type="email"></td></tr>
+        <tr><td><span style="color:firebrick"><b>Home Address:</b></span></td><td><input type="textarea"></td></tr>
+        <tr><td><span style="color:firebrick"><b>Hobbies:</b></span>
+        <tr><td> <span style="color:firebrick"><b>Reading</b><input type="checkbox"></td></tr>
+            <tr><td> <span style="color:firebrick"><b>Cooking</b><input type="checkbox"></td></tr>
+                <tr><td> <span style="color:firebrick"><b>Drawing</b><input type="checkbox"></td></tr>
+                    <tr><td> <span style="color:firebrick"><b>Computer games</b><input type="checkbox"></td></tr>
+                        <tr><td> <span style="color:firebrick"><b>Playing music instruments</b><input type="checkbox"></td></tr>
+                
+                     
+                            <tr><td><span style="color:firebrick"><b>Favorite Color:</b> </span>
+                            <div class="dropdown">
+                              <button class="dropbtn">Color</button>
+                              <div class="dropdown-content">
+                                <a href="#">Red</a>
+                                <a href="#">Black</a>
+                                <a href="#">Brown</a>
+                                <a href="#">Blue</a>
+                                <a href="#">Green</a>
+                                <a href="#">Carnation Pink</a>
+                                <a href="#">Orange</a>
+                                <a href="#">Yellow</a>
+                                <a href="#">Violet></a>
+                                
+                              </div>
+                            </div>    
+                            <tr><td><span style="color:firebrick"><b>Say something about yourself</b></span></td><td><input type="textarea"></td></tr>            
+                        
+        <tr><td></td><td> <input type="button" value="Submit"> <input type="reset" value="Clear"></td></tr>
+    </table>
+    </form> 
+
+
+
+</body>
+</html>
